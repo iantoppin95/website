@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(227, 235, 235);
+    padding: 0px;
+    margin: 0px;     
+}
+
+/*----navbar-----*/
+.navbar-nav {
+    padding: 5px 0px 5px 0px;
+}
+
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-link ,a {
+    color: #435468;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+/*----breadcrumbs----*/
+.breadcrumb {
+    background-color: #1d2124;
+    padding: 75px !important;
+}
+
+.breadcrumb, a{
+    color: aliceblue;
+}
