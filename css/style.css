@@ -1,10 +1,14 @@
-body {
-    background-color: rgb(227, 235, 235);
-    padding: 0px;
-    margin: 0px;     
+body, html {
+    background-color: #e3ebeb;  
+    height: 100%; 
+    width: 100%;  
 }
 
 /*----navbar-----*/
+.navbar {
+    background-color: #297cdb !important;
+
+}
 .navbar-nav {
     padding: 5px 0px 5px 0px;
 }
@@ -29,4 +33,12 @@ body {
 
 .breadcrumb, a{
     color: aliceblue;
+}
+
+.img {
+    text-align: center;
+    /*background-color: blue;*/
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url('img/blur-close-up-code-546819.jpg')!important;
 }
